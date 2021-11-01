@@ -48,6 +48,7 @@ else
     document.getElementById('bg').style.backgroundImage = "url('./imgs/trivia.gif')";
     document.getElementById('type').style.color = "#242424b7";
     document.getElementById('quote').style.color = "#242424b7";
+    document.getElementById('space').style.color = "#242424b7";;
 
     var random = Math.floor(Math.random()*trivia.length)
     document.getElementById('type').textContent = "FUN FACT #" + ( random + 1) ; 
