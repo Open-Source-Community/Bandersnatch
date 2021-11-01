@@ -1,0 +1,160 @@
+@font-face {
+    font-family: BM;
+    src: url('../fonts/PressStart2P-Regular.ttf');
+}
+
+body{
+    margin: 0px;
+    background-color: rgb(10, 10, 10);
+}
+
+.nav p{
+    font-family: BM;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    padding-top: 30px;
+}
+
+.i{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    float: right;
+}
+
+.nav{
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg{
+    height: 100vh;
+    background-image: url('/imgs/ezgif.com-gif-maker\(1\).gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    margin-top: 10%; 
+    filter: blur(3px);
+    opacity: 95%; 
+}
+
+.head{
+    align-items: center;
+    margin-top: 28%;
+}
+
+h1{
+    color: rgba(202, 202, 202, 0.719);
+    font-family: BM;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    filter: blur(2px);
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(202, 202, 202, 0.719);
+    padding-bottom: 2%;
+    filter: blur(2px);
+    margin-top: 3%;
+}
+
+
+
+.cover{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../imgs/BM-cover.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.cover p{
+    color: rgb(177, 26, 26);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: BM;
+    padding-bottom: 35%;
+    padding-top: 2%;
+}
+
+.body{
+    margin-bottom: 6%;
+}
+
+
+.card-title{
+    text-align: center;
+    padding-top: 35%;
+    font-family: BM;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgba(172, 172, 172, 0.719);
+    padding-bottom: 3%;
+    border-bottom: 5PX solid rgba(172, 172, 172, 0.719);
+}
+
+.Q,.T{
+    text-align: center;
+    font-family: BM;
+    font-size: 27px;
+    font-weight: 700;
+    margin: 5% 0%;
+    filter: blur(1px);
+}
+
+.Q:hover,.T:hover{
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(172, 172, 172, 0.719);
+}
+
+
+a:hover{
+    text-decoration: none;
+    color: rgba(172, 172, 172, 0.719);
+}
+
+@media(max-width: 600px){
+    .cover p{
+        padding-bottom: 100%;
+    }
+    .i{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: right;
+    }
+    .nav p{
+        text-align: center;
+        font-family: BM;
+        font-size: 22px;
+        font-weight: bold;
+        color: white;
+        padding-top: 30px;
+    }
+    
+}
