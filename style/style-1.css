@@ -1,6 +1,6 @@
 @font-face {
     font-family: BM;
-    src: url('../fonts/PressStart2P-Regular.ttf');
+    src: url('../fonts/font.ttf');
 }
 
 body{
@@ -32,7 +32,7 @@ body{
 
 .bg{
     height: 100vh;
-    background-image: url('/imgs/ezgif.com-gif-maker\(1\).gif');
+    background-image: url('/imgs/bg.gif');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
