@@ -34,7 +34,7 @@ const trivia = [
 var choice = Math.floor(Math.random() * 2);
 if(choice === 0)
 {
-    document.getElementById('bg').style.backgroundImage = "url('./../imgs/quotes.gif')";
+    document.getElementById('bg').style.backgroundImage = "url('./imgs/quotes.gif')";
     document.getElementById('type').style.color = "#cacacab7";
     document.getElementById('quote').style.color = "#cacacab7";
     document.getElementById('space').style.color = "#cacacab7";
@@ -45,7 +45,7 @@ if(choice === 0)
 }
 else 
 {
-    document.getElementById('bg').style.backgroundImage = "url('./../imgs/trivia.gif')";
+    document.getElementById('bg').style.backgroundImage = "url('./imgs/trivia.gif')";
     document.getElementById('type').style.color = "#242424b7";
     document.getElementById('quote').style.color = "#242424b7";
 
@@ -62,7 +62,7 @@ document.body.onkeyup = function(e)
         // quote
         if(choice === 0)
         {
-            document.getElementById('bg').style.backgroundImage = "url('./../imgs/quotes.gif')";
+            document.getElementById('bg').style.backgroundImage = "url('./imgs/quotes.gif')";
             document.getElementById('type').style.color = "#cacacab7";
             document.getElementById('quote').style.color = "#cacacab7";
             document.getElementById('space').style.color = "#cacacab7";
@@ -73,7 +73,7 @@ document.body.onkeyup = function(e)
         }
         else 
         {
-            document.getElementById('bg').style.backgroundImage = "url('./../imgs/trivia.gif')";
+            document.getElementById('bg').style.backgroundImage = "url('./imgs/trivia.gif')";
             document.getElementById('type').style.color = "#242424b7";
             document.getElementById('quote').style.color = "#242424b7";;
             document.getElementById('space').style.color = "#242424b7";;
