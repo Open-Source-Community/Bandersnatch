@@ -36,7 +36,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../imgs/quotes.gif);
+    background-image: url(./../imgs/quotes.gif);
 }
 
 .logo{
