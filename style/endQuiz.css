@@ -1,5 +1,5 @@
 body {
-  background-image: url("../imgs/quiz.gif");
+  background-image: url('../imgs/quiz.gif');
   font-family: 'VT323', monospace;
   color: #d8d8d8;
 }
@@ -12,13 +12,20 @@ body {
   margin: 0 auto;
   margin-top: 130px;
 }
-.question{
-  vertical-align: center;
-  font-size: 40px;
-  position: relative;
+
+.score,
+.convo,
+#convo{
+  text-align: center;
+  font-size: 45px;
 }
+.score,
+.convo{
+  font-size: 30px;
+}
+
 /* TEXTTYPE*/
-.question::after {
+#convo::after {
   content: "";
   position: absolute;
   width: 2px;
@@ -36,23 +43,24 @@ body {
   }
 }
 /* choices and hover */
+
 .choices{
   position: absolute;
 }
 li{
   display: inline-block;
 }
-li p{
+li a{
   text-decoration: none;
   display: inline-block;
   color: #d8d8d8;
   font-family: 'VT323', monospace;
-  font-size: 30px;
-  padding: 0 200px;
+  font-size: 33px;
+  padding: 0 290px;
   opacity: 50%;
 }
-#choice1::after,
-#choice2::after{
+.choice1::after,
+.choice2::after{
   content: '';
 
   display: block;
@@ -65,15 +73,15 @@ li p{
 
   transform: scaleX(0);
 }
-#choice1:hover::after,
-#choice1:focus::after,
-#choice2:hover::after,
-#choice2:focus::after{
+.choice1:hover::after,
+.choice1:focus::after,
+.choice2:hover::after,
+.choice2:focus::after{
 transform: scaleX(1);
 }
 
-#choice1:hover,
-#choice2:hover{
+.choice1:hover,
+.choice2:hover{
   opacity: 100%;
   cursor: pointer;
   transform: scale(1.02);

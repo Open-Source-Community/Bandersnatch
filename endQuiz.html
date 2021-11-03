@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<link rel="stylesheet" href="style/quiz.css">
+<link rel="stylesheet" href="style/endQuiz.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
@@ -14,13 +14,15 @@
         <a href="./index.html"><img class="logo" src="./imgs/logo.gif" alt="logo" width="70px" height="70px"></a>
     </div>
     <div class="container">
-      <p class="question"></p>
+      <p id ="convo"></p>
+      <p class = 'score'>your score is </p><p class="convo"></p>
+
     </div>
 
 <div class="choices">
-    <li><p id="choice1"></p></li>
-    <li><p id="choice2"></p></li>
+    <li><a href="index.html" class="choice1" >Main</a></li>
+    <li><a href="quiz.html" class="choice2">Play Again</a></li>
     </div>
-    <script src="./js/quiz.js"></script>
+    <script src="./js/endQuiz.js"></script>
   </body>
 </html>
