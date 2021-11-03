@@ -1,8 +1,8 @@
 // writting  letter by letter
 
 var string = "What's the name of the video game company that offers to help Stefan develop -Bandersnatch- ?";
-var choice1 = 'Tuckersoft'
-var choice2 = 'Videlectrix'
+var choice1 = 'Tuckersoft';
+var choice2 = 'Videlectrix';
 var ind = 0;
 var text = '';
 
@@ -13,30 +13,12 @@ var text = '';
   document.querySelector('.question').textContent = text;
 
   if(ind != string.length){
-  setTimeout(type, 50);
+  setTimeout(type, 90);
 }}());
 
-(function typech1(){
+  document.querySelector('.choice1').textContent = choice1;
+  document.querySelector('.choice2').textContent = choice2;
 
-  text= choice1.slice(0, ++ind);
-
-  document.querySelector('.choice1').textContent = text;
-
-  if(ind != choice1.length){
-  setTimeout(typech1, 50);
-}
-}());
-
-(function typech2(){
-
-  text= choice2.slice(0, ++ind);
-
-  document.querySelector('.choice2').textContent = text;
-
-  if(ind != choice2.length){
-  setTimeout(typech2, 50);
-}
-}());
 let questions = [
   {
     question: "What's the name of the video game company that offers to help Stefan develop -Bandersnatch- ?",

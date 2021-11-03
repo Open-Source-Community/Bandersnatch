@@ -1,5 +1,5 @@
 body {
-  background-image: url("imgs/background.gif");
+  background-image: url("imgs/quiz.gif");
   font-family: 'VT323', monospace;
   color: #d8d8d8;
 }
@@ -89,5 +89,5 @@ transform: scaleX(1);
 .logo img{
     margin-top: 1%;
     filter: blur(3px);
-    opacity: 95%;
+    opacity: 99%;
 }
