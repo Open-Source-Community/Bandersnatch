@@ -24,7 +24,6 @@ const quotes = [
 
 ];
 
-
 const trivia = [
     "Has Inaccessible Scenes.",
     "The Whole Film Was Shot In 7 Weeks.",

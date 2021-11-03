@@ -3,6 +3,11 @@
     src: url('../fonts/font.ttf');
 }
 
+.container{
+    width: 1100px;
+    margin: auto;
+}
+
 body{
     margin: 0px;
     background-color: rgb(10, 10, 10);
@@ -31,8 +36,12 @@ body{
 }
 
 .bg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
-    background-image: url('./../imgs/bg.gif');
+    background-image: url('./../imgs/mono.gif');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,7 +54,7 @@ body{
 }
 
 .logo img{
-    margin-top: 10%; 
+    margin-top: 5%; 
     filter: blur(3px);
     opacity: 95%; 
 }
@@ -58,7 +67,7 @@ body{
 h1{
     color: rgba(202, 202, 202, 0.719);
     font-family: BM;
-    font-size: 30px;
+    font-size: 27px;
     font-weight: bold;
     text-align: center;
     filter: blur(2px);
@@ -68,20 +77,20 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(202, 202, 202, 0.719);
+    background-color: transparent;
+    border-bottom: 10px solid rgba(202, 202, 202, 0.719);
     padding-bottom: 2%;
     filter: blur(2px);
-    margin-top: 3%;
+    margin-top: 1.5%;
 }
 
 
 
 .cover{
-
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('./imgs/bg.gif');
+    background-image: url('./imgs/BM-cover.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -115,27 +124,64 @@ h1{
 }
 
 .Q,.T{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
     font-family: BM;
-    font-size: 27px;
+    font-size: 19PX;
     font-weight: 700;
-    margin: 5% 0%;
+    margin-top: 5%;
     filter: blur(1px);
 }
 
-.Q:hover,.T:hover{
-    font-size: 25px;
+.line3{
+    width: 50% !important;
 }
+
+.line2, .line3,.line4{
+    /* display: none; */
+    width: 100%;
+    background-color: transparent;
+    /* border-bottom: 10px solid white; */
+    padding-bottom: 2%;
+    filter: blur(2px);
+    margin-top: 1.5%;
+    border-radius: 50%;
+}
+
+
+.T:hover .line4{
+    background-color: white;
+}
+
+.Q:hover .line2{
+    background-color: white;
+    /* display: block; */
+
+}
+
+
+.T:hover .line3{
+    background-color: white;
+    font-size: 18PX;
+    color: rgba(202, 202, 202, 1);
+    
+}
+
+
 
 a{
     text-decoration: none;
     color: rgba(172, 172, 172, 0.719);
+    padding: 0%;
 }
 
 
 a:hover{
     text-decoration: none;
-    color: rgba(172, 172, 172, 0.719);
+    color: white;
 }
 
 @media(max-width: 600px){
