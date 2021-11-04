@@ -80,6 +80,7 @@ transform: scaleX(1);
   transform: transform 100ms;
 }
 /* logo */
+
 .logo{
     display: flex;
     justify-content: center;
@@ -87,7 +88,7 @@ transform: scaleX(1);
 }
 
 .logo img{
-    margin-top: 1%;
+    margin-top: 5%;
     filter: blur(3px);
-    opacity: 99%;
+    opacity: 95%;
 }
